@@ -1,0 +1,15 @@
+security:
+  basic:
+    enabled: false
+
+
+db:
+  neo4j:
+    driver: org.neo4j.ogm.drivers.bolt.driver.BoltDriver
+    user: neo4j
+    password: neo4j#2018
+    server:
+      uri: bolt://192.168.100.83:7666
+    connection:
+      poll:
+        size: 10
